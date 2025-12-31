@@ -9,4 +9,4 @@ name : n.s.v ganesh
 - Solution: Day01/index.html
 - Output:
 
-![Day 01 Output](Day01/output.png)
+![Day 01 Output](https://github.com/ganeshnama125/30-days-of-code-tcp-2026/blob/main/day1.jpg.png?raw=true)
