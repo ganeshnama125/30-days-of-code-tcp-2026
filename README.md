@@ -4,3 +4,9 @@ name : n.s.v ganesh
  branch : ECE
  <br>
  roll no : 25116056
+## Day 01
+- Problem: Create a basic multi-page portfolio website using HTML
+- Solution: Day01/index.html
+- Output:
+
+![Day 01 Output](Day01/output.png)
