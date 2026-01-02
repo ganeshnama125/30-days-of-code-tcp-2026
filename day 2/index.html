@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Annual Cultural Fest</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        form {
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+    <h1>Annual Cultural fest NITRR 2026</h1>
+    </header>
+
+    
+    <h2>Event Schedule</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:30 AM</td>
+                <td>Opening Ceremony</td>
+                <td>Main Stage</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>Dance Competition</td>
+                <td>Open Auditorium</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>Music & Band Performances</td>
+                <td>Cultural Hall</td>
+            </tr>
+        </tbody>
+    </table>
+
+    
+    <h2>Participant Registration Form</h2>
+
+    <form action="submit.html" method="post">
+
+        <!-- Text -->
+        <label for="name">Participant Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email ID:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Number -->
+        <label for="phone">Mobile Number:</label><br>
+        <input type="number" id="phone" name="phone"><br><br>
+
+        <!-- Date -->
+        <label for="date">Date of Participation:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+
+        <!-- Radio -->
+        <p>Event Category:</p>
+        <input type="radio" id="dance" name="category" value="Dance">
+        <label for="dance">Dance</label><br>
+
+        <input type="radio" id="music" name="category" value="Music">
+        <label for="music">Music</label><br>
+
+        <input type="radio" id="drama" name="category" value="Drama">
+        <label for="drama">Drama</label><br><br>
+
+        <!-- Checkbox -->
+        <p>Interested Activities:</p>
+        <input type="checkbox" id="solo" name="activity[]" value="Solo">
+        <label for="solo">Solo Performance</label><br>
+
+        <input type="checkbox" id="group" name="activity[]" value="Group">
+        <label for="group">Group Performance</label><br>
+
+        <input type="checkbox" id="workshop" name="activity[]" value="Workshop">
+        <label for="workshop">Cultural Workshop</label><br><br>
+
+        <!-- Textarea -->
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Submit -->
+        <button type="submit">Submit Registration</button>
+
+    </form>
+
+</body>
+</html>
