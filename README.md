@@ -18,3 +18,12 @@ name : n.s.v ganesh
 - Output:
 
 ![Day 02 Output](https://github.com/ganeshnama125/30-days-of-code-tcp-2026/blob/main/day2%20.jpg.png?raw=true)
+
+
+## Day 03
+- Problem:improve the existing portfolio pages (index.html and about.html) using core css
+- Solution: Day03/index.html
+- Output:
+
+![Day 02 Output](https://github.com/ganeshnama125/30-days-of-code-tcp-2026/blob/main/day3.png?raw=true)
+
