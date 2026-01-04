@@ -2,10 +2,7 @@
 name : n.s.v ganesh 
 <br>
  branch : ECE
- <br>
- roll no : 25116056
-## Day 01
-- Problem: Create a basic multi-page portfolio website using HTML
+ <br>-
 - Solution: Day01/index.html
 - Output:
 
@@ -25,5 +22,12 @@ name : n.s.v ganesh
 - Solution: Day03/index.html
 - Output:
 
-![Day 02 Output](https://github.com/ganeshnama125/30-days-of-code-tcp-2026/blob/main/day3.png?raw=true)
+![Day 03 Output](https://github.com/ganeshnama125/30-days-of-code-tcp-2026/blob/main/day3.png?raw=true)
+
+## Day 04
+- Problem:use product landing page that shows you can use flex box layouts,responsive design,CSS variables,transitions and basic animations 
+- Solution: Day03/index.html
+- Output:
+
+![Day 04 Output](https://github.com/ganeshnama125/30-days-of-code-tcp-2026/blob/main/day4.png?raw=true)
 
